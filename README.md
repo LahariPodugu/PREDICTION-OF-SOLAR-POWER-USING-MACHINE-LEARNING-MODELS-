@@ -5,67 +5,76 @@ This project focuses on forecasting state-wise solar power generation in India u
 The project compares multiple machine learning algorithms, including Linear Regression, Random Forest, Gradient Boosting, and XGBoost, to identify the most effective model for solar energy forecasting. Hyperparameter tuning techniques such as Grid Search were applied to optimize model performance and improve prediction reliability.
 
 **Key Features**
-State-wise solar power generation forecasting
-Historical weather and solar generation data analysis
-Data preprocessing and cleaning
-Outlier detection and removal using IQR
-Feature scaling using Min-Max Normalization
-Comparison of multiple machine learning models
-Hyperparameter tuning using GridSearchCV
-Performance evaluation using MAE, MSE, RMSE, and R² Score
-Future solar generation prediction using inference data
+State-wise solar power generation forecasting,
+Historical weather and solar generation data analysis,
+Data preprocessing and cleaning,
+Outlier detection and removal using IQR,
+Feature scaling using Min-Max Normalization,
+Comparison of multiple machine learning models,
+Hyperparameter tuning using GridSearchCV,
+Performance evaluation using MAE, MSE, RMSE, and R² Score,
+Future solar generation prediction using inference data,
 Dataset Features
 
 **The dataset contains the following attributes:**
-STATE
-DATE
-State_solar (Target Variable)
-Temperature
-Humidity
-Precipitation
-Pressure
-Wind_Speed
-Wind_Direction
-Clouds
-POP (Probability of Precipitation)
-UVI (UV Index)
+STATE,
+DATE,
+State_solar (Target Variable),
+Temperature,
+Humidity,
+Precipitation,
+Pressure,
+Wind_Speed,
+Wind_Direction,
+Clouds,
+POP (Probability of Precipitation),
+UVI (UV Index),
 Sun_Duration
 
 **Project Workflow**
 Data Collection
+
 Data Cleaning and Preprocessing
+
 Exploratory Data Analysis (EDA)
+
 Outlier Detection and Removal
+
 Feature Scaling
+
 Model Training
+
 Hyperparameter Tuning
+
 Model Evaluation
+
 Forecast Generation
+
 Final Model Selection
 
 **Machine Learning Models Used**
-Linear Regression
-R² Score: 0.16
+1) Linear Regression, R² Score: 0.16
+
 Baseline model for comparison
 
-Random Forest Regressor
-R² Score: 0.80
+2) Random Forest Regressor, R² Score: 0.80
+
 Captures non-linear relationships effectively
 
-Gradient Boosting Regressor
-R² Score: 0.92
+3) Gradient Boosting Regressor, R² Score: 0.92
+
 Strong predictive performance
 
-XGBoost Regressor
-R² Score: 0.90
+4) XGBoost Regressor, R² Score: 0.90
+
 Advanced boosting algorithm with improved efficiency
 
-Tuned Gradient Boosting
-R² Score: 0.93
+5) Tuned Gradient Boosting, R² Score: 0.93
+
 Optimized using GridSearchCV
 
-Tuned XGBoost
-R² Score: 0.95
+6) Tuned XGBoost, R² Score: 0.95
+
 Best-performing model
 
 Selected for final deployment
